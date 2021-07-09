@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "531113834344",
+    "project_id": "vibraniumtutors-5b159",
+    "storage_bucket": "vibraniumtutors-5b159.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531113834344:android:73cfee5ecd4fb59de548dd",
+        "android_client_info": {
+          "package_name": "com.example.vibraniumtutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531113834344-j36lsso974qpueu3iijs7r974lh8l8hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhf7lh4zJj296dqNVJN-5Ok12p2G9vNas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531113834344-j36lsso974qpueu3iijs7r974lh8l8hs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

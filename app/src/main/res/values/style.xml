@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Cities">
+        <item>Addis Ababa</item>
+        <item>Dire Dawa</item>
+        <item>BahirDare</item>
+        <item>Arba Minch</item>
+        <item>Desie</item>
+        <item>Hawassa</item>
+    </string-array>
+</resources>

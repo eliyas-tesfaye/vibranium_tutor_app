@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">VibraniumTutor</string>
+    <string name="title_activity_home_page">Vibranium Tutors</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="close">close</string>
+    <string name="open">open</string>
+
+    <string-array name="online_array">
+        <item>All</item>
+        <item>Online</item>
+        <item>In-person</item>
+    </string-array>
+
+    <string-array name="education_array">
+        <item>All</item>
+        <item>Pre-KG</item>
+        <item>Elementary (1-6)</item>
+        <item>Grade 7-8</item>
+        <item>Grade 9-10</item>
+        <item>Grade 11-12</item>
+        <item>Freshman</item>
+        <item>Degree and obove</item>
+    </string-array>
+
+    <string-array name="subject_array">
+        <item>All</item>
+        <item>Maths</item>
+        <item>English</item>
+        <item>Amharic</item>
+        <item>Biology</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Music</item>
+        <item>Geography</item>
+        <item>Economics</item>
+        <item>Programing</item>
+        <item>General Science</item>
+        <item>Social Study</item>
+        <item>Civic</item>
+        <item>Epidemiiology</item>
+        <item>Thesis writing</item>
+        <item>International Exam</item>
+        <item>Phote and Video Editing</item>
+        <item>Mathemathical Sof</item>
+    </string-array>
+
+    <string-array name="location_array">
+        <item>All</item>
+        <item>Addis Ketema</item>
+        <item>Akaki Kality</item>
+        <item>Arada</item>
+        <item>Kolfe Keranio</item>
+        <item>Bole</item>
+        <item>Gullele</item>
+        <item>Kirkos</item>
+        <item>Lideta</item>
+        <item>Nifas Silk-Lafto</item>
+        <item>Yeka</item>
+    </string-array>
+
+</resources>
+

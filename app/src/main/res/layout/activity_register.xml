@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/gredient_wave_background"
+    tools:context=".Register_Activity">
+
+    <ImageView
+        android:id="@+id/edit_profile"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/account"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/fname_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="first Name"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@null"
+        android:inputType="text"
+        android:drawableStart="@drawable/ic_baseline_control_point_24"
+        android:drawablePadding="5dp"
+        android:gravity="start"
+        android:drawableLeft="@drawable/ic_baseline_control_point_24" />
+
+
+    <EditText
+        android:id="@+id/lname_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="last Name"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@null"
+        android:inputType="text"
+        android:drawableStart="@drawable/ic_baseline_control_point_24"
+        android:drawablePadding="5dp"
+        android:gravity="start"
+        android:drawableLeft="@drawable/ic_baseline_control_point_24" />
+
+    <EditText
+        android:id="@+id/uname_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="user Name"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@null"
+        android:inputType="text"
+        android:drawableStart="@drawable/ic_baseline_control_point_24"
+        android:drawablePadding="5dp"
+        android:gravity="start"
+        android:drawableLeft="@drawable/ic_baseline_control_point_24" />
+
+    <EditText
+        android:id="@+id/email_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="email"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@null"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/ic_baseline_control_point_24"
+        android:drawablePadding="5dp"
+        android:gravity="start"
+        android:drawableLeft="@drawable/ic_baseline_control_point_24" />
+
+    <EditText
+        android:id="@+id/pass_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="password"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@null"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_baseline_control_point_24"
+        android:drawablePadding="5dp"
+        android:gravity="start"
+        android:drawableLeft="@drawable/ic_baseline_control_point_24" />
+
+    <EditText
+        android:id="@+id/Cpass_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="confirm password"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@null"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_baseline_control_point_24"
+        android:drawablePadding="5dp"
+        android:gravity="start"
+        android:drawableLeft="@drawable/ic_baseline_control_point_24" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:backgroundTint="@color/dark"
+        android:id="@+id/btn_Reg"
+        android:clickable="true"
+        android:focusable="true"
+        android:textAllCaps="false"
+        android:textColor="#d3d8e3"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/curve_button"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="20dp"
+        android:background="@color/dark" />
+
+    <TextView
+        android:id="@+id/txt_Reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Already have an accoutn? Logiin"
+        android:textStyle="bold" />
+
+</LinearLayout>

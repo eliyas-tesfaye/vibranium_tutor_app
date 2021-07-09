@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:title="Activity's"
+        android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Home" />
+
+            <item
+                android:id="@+id/nav_find"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Find a Toutor" />
+
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Recieved Request" />
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Sent Request" />
+        </menu>
+
+    </item>
+
+    <item android:title="profile"
+        android:checkableBehavior="single">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="View Profile" />
+            <item
+                android:id="@+id/nav_editprofile"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="EditProfile" />
+        </menu>
+
+
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_btutor"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Become A Tutor" />
+
+    </group>
+
+
+</menu>
